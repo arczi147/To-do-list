@@ -3,3 +3,8 @@
     text-align: center;
     margin: auto;
 }
+
+.mainHeader {
+    text-align: left;
+    margin: 50px auto;
+}
