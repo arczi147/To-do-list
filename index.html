@@ -11,12 +11,25 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/style.css" rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
 </head>
 
 <body class="body">
     <div class="container">
         <h1 class="mainHeader">Lista zadań</h1>
+        <form class="form">
+            <div class="form__item form__item--first">Dodaj nowe zadanie</div>
+            <div class="form__item"></div>
+            <div class="form__item">
+                <label>
+                    <input class="form__field" name="newTask" placeholder="Co jest do zrobienia?">
+                </label>
+            </div>
+            <div class="form__item">
+                <button class="form__item form__item--button">Dodaj zadanie</button>
+            </div>
+        </form>
     </div>
 </body>
 

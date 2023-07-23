@@ -1,0 +1,31 @@
+.form {
+    display: grid;
+    grid-template-rows: 50px 70px;
+    grid-template-columns: 80% 20%;
+    grid-gap: 1px 0px;
+}
+
+.form__item {
+    background-color: white;
+    padding: 12px 15px;
+}
+
+.form__item--first {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form__item--button {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 8px;
+    width: 100%;
+}
+
+.form__field {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
