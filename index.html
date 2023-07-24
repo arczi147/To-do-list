@@ -13,27 +13,29 @@
     <link href="css/container.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body class="body">
     <div class="container">
         <h1 class="mainHeader">Lista zadań</h1>
-        <form class="form">
+        <form class="form js-form">
             <div class="form__item form__item--first">Dodaj nowe zadanie</div>
             <div class="form__item"></div>
             <div class="form__item">
-                <label>
-                    <input class="form__field" name="newTask" placeholder="Co jest do zrobienia?">
-                </label>
+                <input class="form__field js-newTask" name="newTask" placeholder="Co jest do zrobienia?">
             </div>
             <div class="form__item">
                 <button class="form__item form__item--button">Dodaj zadanie</button>
             </div>
             <div class="form__item form__item--fifth">Lista zadań</div>
             <div class="form__item form__item--sixth"></div>
-            <div class="form__item"></div>
-            <div class="form__item"></div>
         </form>
+
+        <ul class="form__item form__item--newTask js-tasks"></ul>
+
     </div>
 </body>
 
