@@ -35,9 +35,42 @@
     margin: 5px 0px 0px;
 }
 
-.form__item--newTask {
+.form__newTask {
     text-align: left;
-    margin: 1px 0px;
+    margin: 2px 0px;
     padding: 10px;
     line-height: 2.5;
+    list-style: none;
+}
+
+.form__newTask--done {
+    text-decoration: line-through;
+}
+
+.buttonTask {
+    border: none;
+    background-color:rgb(26,123,30);
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.buttonTask--done {
+    color:white;
+}
+
+.removingButton {
+   float: right;
+   border: none;
+   width: 25px;
+   height: 25px;
+   background-color: rgb(236,41,56);
+   color: white;
+}
+
+.list__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    text-decoration: none;
 }
