@@ -1,17 +1,17 @@
 .form {
     display: grid;
-    grid-template-rows: 50px 70px 50px;
+    grid-template-rows: 50px 70px 55px;
     grid-template-columns: 80% 20%;
     grid-gap: 1px 0px;
 }
 
 .form__item {
     background-color: white;
-    padding: 12px 15px;
+    padding: 14px 15px;
 }
 
 .form__item--first, .form__item--fifth {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-align: left;
 }
@@ -23,54 +23,40 @@
     padding: 8px;
     width: 100%;
     font-size: 15px;
+    margin: 5px 0px 4px 0px;
 }
 
 .form__field {
     width: 100%;
     border: 1px solid #ccc;
     padding: 8px;
+    margin: 4px;
 }
 
 .form__item--fifth, .form__item--sixth {
     margin: 5px 0px 0px;
 }
 
-.form__newTask {
-    text-align: left;
-    margin: 2px 0px;
-    padding: 10px;
-    line-height: 2.5;
-    list-style: none;
+@media (max-width: 767px) {
+    .form {
+        grid-template-columns: 65% 35%;
+    }
 }
 
-.form__newTask--done {
-    text-decoration: line-through;
+@media (max-wdidth: 767px) {
+    .form__item {
+        padding: 3px 2px;
+    }
 }
 
-.buttonTask {
-    border: none;
-    background-color:rgb(26,123,30);
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
+@media (max-width: 767px) {
+    .form__item--first, .form__item--fifth {
+        font-size: 16px;
+    }
 }
 
-.buttonTask--done {
-    color:white;
-}
-
-.removingButton {
-   float: right;
-   border: none;
-   width: 25px;
-   height: 25px;
-   background-color: rgb(236,41,56);
-   color: white;
-}
-
-.list__item {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
-    text-decoration: none;
+@media (max-width: 767px) {
+    .form__item--button {
+        margin: 0px 0px 5px;
+    }
 }

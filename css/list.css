@@ -1,0 +1,51 @@
+.list__item {
+    display: grid;
+    grid-template-columns: 25px 1fr 25px;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+.list__newTask {
+    text-align: left;
+    margin: 1px 0px;
+    padding: 8px;
+    line-height: 1.5;
+    list-style: none;
+    max-width: 100%;
+}
+
+.list__newTask--done {
+    text-decoration: line-through;
+}
+
+.list__buttonTask {
+    border: none;
+    background-color:rgb(26,123,30);
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.list__buttonTask:active {
+    border: 2px solid black;
+}
+
+.list__buttonTask--done {
+    color:white;
+}
+
+.list__removingButton {
+   float: right;
+   border: none;
+   width: 25px;
+   height: 25px;
+   background-color: rgb(236,41,56);
+   color: white;
+}
+
+.list__removingButton:active {
+    border: 2px solid black;
+}
