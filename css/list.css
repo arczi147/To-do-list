@@ -1,20 +1,20 @@
 .list__item {
     display: grid;
-    grid-template-columns: 25px 1fr 25px;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
     text-decoration: none;
-    border-bottom: 1px solid #ccc;
-    margin: 0px 10px;
-    padding: 0px 10px;
+    border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .list__newTask {
     text-align: left;
-    margin: 1px 0px;
-    padding: 8px;
+    margin: 2px 0px;
+    padding: 5px;
     line-height: 1.5;
     list-style: none;
-    max-width: 100%;
+    margin: 1px 0px;
+    background-color: white;
+    padding: 13px 15px;
 }
 
 .list__newTask--done {
@@ -27,6 +27,7 @@
     width: 25px;
     height: 25px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 .list__buttonTask:active {
@@ -44,6 +45,8 @@
    height: 25px;
    background-color: rgb(236,41,56);
    color: white;
+   margin-right: 10px;
+   margin-left: 10px;
 }
 
 .list__removingButton:active {

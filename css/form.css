@@ -1,17 +1,17 @@
 .form {
     display: grid;
-    grid-template-rows: 50px 70px 55px;
+    grid-template-rows: 50px 70px 50px;
     grid-template-columns: 80% 20%;
     grid-gap: 1px 0px;
 }
 
 .form__item {
     background-color: white;
-    padding: 14px 15px;
+    padding: 13px 15px;
 }
 
 .form__item--first, .form__item--fifth {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     text-align: left;
 }
@@ -23,14 +23,12 @@
     padding: 8px;
     width: 100%;
     font-size: 15px;
-    margin: 5px 0px 4px 0px;
 }
 
 .form__field {
     width: 100%;
-    border: 1px solid #ccc;
-    padding: 8px;
-    margin: 4px;
+    border: 2px solid #ccc;
+    padding: 6px;
 }
 
 .form__item--fifth, .form__item--sixth {
