@@ -1,0 +1,15 @@
+.section {
+    margin: 10px 0;
+    background-color: white;
+}
+
+.section__header {
+    font-size: 25px;
+    margin: 0px;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+.section__field {
+    padding: 15px;
+}

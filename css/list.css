@@ -1,8 +1,8 @@
 .list__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
     align-items: center;
-    text-decoration: none;
     border-bottom: 1px solid rgb(226, 226, 226);
 }
 
@@ -10,11 +10,9 @@
     text-align: left;
     margin: 2px 0px;
     padding: 5px;
-    line-height: 1.5;
+    line-height: 1.75;
     list-style: none;
-    margin: 1px 0px;
-    background-color: white;
-    padding: 10px 15px;
+
 }
 
 .list__newTask--done {
