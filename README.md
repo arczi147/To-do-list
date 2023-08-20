@@ -8,7 +8,7 @@ https://arczi147.github.io/To-do-list/
 
 ## What does the website enable?
 
-The website allows you to create a to-do list. You can add new tasks, mark already completed and additonally delete it. I invite you to test it.
+The website allows you to create a to-do list. You can add new tasks, mark already completed and delete it. Additional you can hide all done tasks, show their again or mark by one button all tasks as done. I invite you to test it.
 
 ## What was used in this project?
 
