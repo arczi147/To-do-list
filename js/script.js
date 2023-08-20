@@ -74,7 +74,7 @@
             toggleHideDoneTasksButton.addEventListener("click", toggleHideDoneTasks)
         };
 
-        const endingAllTasksButton = document.querySelector(".js-endingAllTasksButton");
+        let endingAllTasksButton = document.querySelector(".js-endingAllTasksButton");
         if (endingAllTasksButton) {
             endingAllTasksButton.addEventListener("click", endingAllTasks)
         };
@@ -108,7 +108,7 @@
             htmlButtonsString += `
             <span class="section__buttons">
             <button class="section__button js-toggleHideDoneTasksButton">${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone</button>
-            <button class="section__button js-endingAllTasksButton"
+            <button class="section__button section__button--endingAllTasksButton js-endingAllTasksButton"
             ${tasks.every(({ done }) => done) ? "disabled" : ""}>Ukończ wszystkie</button>
             </span>`;
         };

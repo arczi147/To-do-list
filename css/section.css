@@ -38,6 +38,11 @@
     color: rgb(0, 170, 170);
 }
 
+.section__button--endingAllTasksButton:disabled {
+    color: #ccc;
+    transition: none;
+}
+
 @media (max-width: 767px) {
     .section__headerArea {
         grid-template-columns: 1fr;
