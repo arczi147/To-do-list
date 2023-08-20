@@ -6,10 +6,49 @@
 .section__header {
     font-size: 25px;
     margin: 0px;
-    border-bottom: 1px solid #ccc;
     padding: 15px;
 }
 
 .section__field {
     padding: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.section__headerArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section__buttons {
+    align-items: center;
+    padding: 10px;
+    text-align: right;
+}
+
+.section__button {
+    background-color: white;
+    color: teal;
+    border: none;
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .section__headerArea {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .section__header--media {
+        padding-bottom: 0px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .section__buttons {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
 }
