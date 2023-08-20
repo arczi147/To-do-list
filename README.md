@@ -1,6 +1,6 @@
 # To-do list
 
-![Lista zadań](https://github.com/arczi147/To-do-list/assets/128419757/82685a7c-4008-4d54-8ed3-c5f7cbb358bb)
+![Lista-zadań](https://github.com/arczi147/To-do-list/assets/128419757/a5585564-204a-424a-89fc-bf6ad4979fea)
 
 ## Demo
 
