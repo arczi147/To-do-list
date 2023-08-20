@@ -39,6 +39,7 @@
 
 .list__buttonTask:active {
     border: 2px solid black;
+    transition: none;
 }
 
 .list__buttonTask--done {
@@ -63,4 +64,5 @@
 
 .list__removingButton:active {
     border: 2px solid black;
+    transition: none;
 }
