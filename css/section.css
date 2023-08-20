@@ -1,6 +1,7 @@
 .section {
     margin: 10px 0;
     background-color: white;
+    box-shadow: 0px 0px 10px 0px #aaa;
 }
 
 .section__header {
@@ -30,6 +31,11 @@
     color: teal;
     border: none;
     padding: 10px;
+    transition: 0.5s;
+}
+
+.section__button:hover {
+    color: rgb(0, 170, 170);
 }
 
 @media (max-width: 767px) {
@@ -43,8 +49,6 @@
         padding-bottom: 0px;
     }
 }
-
-
 
 @media (max-width: 767px) {
     .section__buttons {

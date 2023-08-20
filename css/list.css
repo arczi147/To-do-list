@@ -30,6 +30,11 @@
     height: 25px;
     margin-right: 10px;
     margin-left: 10px;
+    transition: 0.5s;
+}
+
+.list__buttonTask:hover {
+    background-color: rgb(40,145,36);
 }
 
 .list__buttonTask:active {
@@ -49,6 +54,11 @@
    color: white;
    margin-right: 10px;
    margin-left: 10px;
+   transition: 0.5s;
+}
+
+.list__removingButton:hover {
+    background-color: rgb(252,45,62);
 }
 
 .list__removingButton:active {
